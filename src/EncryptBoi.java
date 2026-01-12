@@ -31,13 +31,14 @@ public class EncryptBoi {
                     "4      Morse-Code%n" +
                     "5      Binär-Code%n" +
                     "6      Emoji-Chiffre%n" +
-                    "7      Zufällige Auswahl%n" +
-                    "8      Programm beenden%n");
+                    "7      Braille-Schrift%n" +
+                    "8      Zufällige Auswahl%n" +
+                    "9      Programm beenden%n");
 
             // Abfangen des Exit-Befehls
             int select1 = input.nextInt();
             input.nextLine();
-            if(select1 == 8){
+            if(select1 == 9){
                 System.exit(0);
             }
 
@@ -52,7 +53,8 @@ public class EncryptBoi {
                 case 4 -> Module.MORSE;
                 case 5 -> Module.BINAIRY;
                 case 6 -> Module.EMOJI;
-                case 7 -> randModule;// Zufällige Auswahl
+                case 7 -> Module.BRAILLE;
+                case 8 -> randModule;// Zufällige Auswahl
                 default -> Module.ERROR1;
             };
 

@@ -9,6 +9,7 @@ public enum Module {
     MORSE("Morse-Cipher", Morse::new),
     BINAIRY("Binär-Code", Binairy::new),
     EMOJI("Emoji-Cipher", Emoji::new),
+    BRAILLE("Braille-Schrift", Braille::new),
     ERROR1("Error", ErrorModule::new);
 
     private final String name;
