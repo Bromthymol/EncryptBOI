@@ -23,7 +23,7 @@ public class Braille implements Encrypt{
             Map.entry('p', "⠏"), Map.entry('q', "⠟"), Map.entry('r', "⠗"),
             Map.entry('s', "⠎"), Map.entry('t', "⠞"), Map.entry('u', "⠥"),
             Map.entry('v', "⠧"), Map.entry('w', "⠺"), Map.entry('x', "⠭"),
-            Map.entry('y', "⠽"), Map.entry('z', "⠵"),Map.entry('0', "⠼⠚"),
+            Map.entry('y', "⠽"), Map.entry('z', "⠵"), Map.entry('0', "⠼⠚"),
             Map.entry('1', "⠼⠁"), Map.entry('2', "⠼⠃"), Map.entry('3', "⠼⠉"),
             Map.entry('4', "⠼⠙"), Map.entry('5', "⠼⠑"), Map.entry('6', "⠼⠋"),
             Map.entry('7', "⠼⠛"), Map.entry('8', "⠼⠓"), Map.entry('9', "⠼⠊")
